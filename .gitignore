@@ -1,0 +1,46 @@
+﻿# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js
+node_modules/
+dist/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Certificates and private keys
+*.pem
+*.key
+id_rsa
+id_rsa.*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Development backup files
+*_backup*.*
+
+# Development backup files
+*_backup*.*
